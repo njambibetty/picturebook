@@ -11,10 +11,10 @@ class picturetwo : AppCompatActivity() {
         setContentView(R.layout.activity_picturetwo)
 
         button3.setOnClickListener {
-            val intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(Intent(baseContext, MainActivity::class.java))
         }
         button2.setOnClickListener {
-            val intent = Intent(baseContext, picture3::class.java)
+            startActivity(Intent(baseContext, MainActivity::class.java))
         }
     }
 }
